@@ -10,3 +10,5 @@ brew install --cask visual-studio-code
 brew install --cask flameshot
 brew install --cask hiddenbar
 brew install --cask chatgpt
+brew install powerlevel10k
+echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
