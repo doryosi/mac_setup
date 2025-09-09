@@ -11,5 +11,6 @@ brew install --cask visual-studio-code
 brew install --cask flameshot
 brew install --cask hiddenbar
 brew install --cask chatgpt
-brew install powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
