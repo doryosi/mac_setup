@@ -23,3 +23,6 @@ brew install zsh-syntax-highlighting
 echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+
+brew install fzf
+echo "source <(fzf --zsh)" >> ${ZDOTDIR:-$HOME}/.zshrc
