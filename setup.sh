@@ -22,25 +22,4 @@ echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 brew install zsh-syntax-highlighting
 echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
-brew install zsh-autocomplete 
-echo "source /opt/homebrew/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
-
-brew install zsh-completions
-#To activate these completions, add the following to your .zshrc:
-#
-#   if type brew &>/dev/null; then
-#     FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-
-#     autoload -Uz compinit
-#     compinit
-#   fi
-
-# You may also need to force rebuild `zcompdump`:
-
-#   rm -f ~/.zcompdump; compinit
-
-# Additionally, if you receive "zsh compinit: insecure directories" warnings when attempting
-# to load these completions, you may need to run these commands:
-
-#   chmod go-w '/opt/homebrew/share'
-#   chmod -R go-w '/opt/homebrew/share/zsh'
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
