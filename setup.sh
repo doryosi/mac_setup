@@ -26,3 +26,8 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 brew install fzf
 echo "source <(fzf --zsh)" >> ${ZDOTDIR:-$HOME}/.zshrc
+
+# Download Docker Desktop
+brew install docker
+brew install kind
+brew install go
