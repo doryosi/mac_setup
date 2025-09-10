@@ -31,3 +31,4 @@ echo "source <(fzf --zsh)" >> ${ZDOTDIR:-$HOME}/.zshrc
 brew install docker
 brew install kind
 brew install go
+brew install k9s
