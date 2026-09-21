@@ -1,0 +1,7 @@
+{
+  "workbench.colorTheme": "Solarized Dark",
+  "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+  "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.initialHint": false
+}
