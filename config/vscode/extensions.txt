@@ -1,0 +1,9 @@
+github.vscode-pull-request-github
+golang.go
+hashicorp.terraform
+linear.linear-connect
+linear.linear-open-issue
+ms-azuretools.vscode-containers
+ms-python.python
+openai.chatgpt
+sst-dev.opencode
